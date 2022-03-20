@@ -1,4 +1,4 @@
-package io.github.monite.utils.log;
+package io.github.minxiangnan.utils.log;
 
 import ch.qos.logback.classic.spi.ILoggingEvent;
 import ch.qos.logback.core.filter.Filter;
