@@ -14,7 +14,7 @@
     
     <developers>
         <developer>
-            <name>monite</name>
+            <name>minxiangnan</name>
             <!-- 邮件 -->
             <email>minxiangnan@qq.com</email>
             <!-- 开源地址 -->
@@ -41,8 +41,9 @@
     
     <modelVersion>4.0.0</modelVersion>
     
-    <artifactId>com.github.monite</artifactId>
-    <groupId>common-utils</groupId>
+    <groupId>com.github.monite</groupId>
+    <artifactId>monite-util</artifactId>
+    
     <version>1.0.0</version>
     
     <dependencies>
@@ -126,15 +127,15 @@
             </plugin>
         </plugins>
     </build>
-    <profiles>
-        <profile>
-            <id>disable-javadoc-doclint</id>
-            <activation>
-                <jdk>[1.8,)</jdk>
-            </activation>
-            <properties>
-                <additionalparam>-Xdoclint:none</additionalparam>
-            </properties>
-        </profile>
-    </profiles>
+<!--    <profiles>-->
+<!--        <profile>-->
+<!--            <id>disable-javadoc-doclint</id>-->
+<!--            <activation>-->
+<!--                <jdk>[1.8,)</jdk>-->
+<!--            </activation>-->
+<!--            <properties>-->
+<!--                <additionalparam>-Xdoclint:none</additionalparam>-->
+<!--            </properties>-->
+<!--        </profile>-->
+<!--    </profiles>-->
 </project>
