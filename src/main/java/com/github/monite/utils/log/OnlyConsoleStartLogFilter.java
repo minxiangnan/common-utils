@@ -6,7 +6,7 @@ import ch.qos.logback.core.spi.FilterReply;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class LogStopFilter extends Filter<ILoggingEvent> {
+public class OnlyConsoleStartLogFilter extends Filter<ILoggingEvent> {
     private static FilterReply filterReply = FilterReply.ACCEPT;
 
     @Override
