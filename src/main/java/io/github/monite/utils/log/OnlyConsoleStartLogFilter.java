@@ -16,7 +16,7 @@ public class OnlyConsoleStartLogFilter extends Filter<ILoggingEvent> {
         }
         if (event.getMessage().contains("JVM running")) {
             filterReply = FilterReply.DENY;
-            log.info("应用已启动成功>>>>>>>>>>>>>>>>>>控制台日志已经停止输出!!!");
+            log.info("application run success>>>>>>>>>>>>>>>>>>console printstop");
         }
         return FilterReply.ACCEPT;
     }
