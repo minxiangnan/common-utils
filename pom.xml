@@ -41,8 +41,8 @@
     
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>com.github.monite</groupId>
-    <artifactId>monite-util</artifactId>
+    <groupId>io.github.minxiangnan</groupId>
+    <artifactId>common-utils</artifactId>
     
     <version>1.0.0</version>
     
